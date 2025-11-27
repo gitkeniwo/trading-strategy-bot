@@ -1,0 +1,32 @@
+# Strategy descriptions for notification footer
+# Each strategy can have descriptions in multiple languages
+
+strategies:
+  ma120_deviation:
+    name: "MA120 Deviation"
+    descriptions:
+      en: |
+        MA120 Deviation Strategy monitors stocks for significant price deviations from their 120-day moving average.
+        • Signal 1: Triggers when price drops 15% below MA120 (suggests 20% position)
+        • Signal 2: Triggers when price drops additional 20% below Signal 1 price (suggests another 20% position)
+        This strategy aims to identify potential value opportunities during market corrections.
+      zh_CN: |
+        MA120偏离策略监控股票价格与120日均线的显著偏离。
+        • 信号1：价格低于MA120 15%时触发（建议20%仓位）
+        • 信号2：价格较信号1价格再跌20%时触发（建议再加20%仓位）
+        该策略旨在市场调整期间识别潜在的价值投资机会。
+
+  # Future strategy: Monthly MA5
+  monthly_ma5:
+    name: "Monthly MA5 Crossover"
+    descriptions:
+      en: |
+        Monthly MA5 Crossover Strategy tracks monthly price movements relative to 5-month moving average.
+        • Buy Signal: Monthly close crosses above MA5
+        • Sell Signal: Monthly close crosses below MA5
+        This strategy follows medium-term trends and filters out short-term noise.
+      zh_CN: |
+        月线MA5交叉策略追踪月度价格相对于5月均线的变动。
+        • 买入信号：月收盘价上穿MA5
+        • 卖出信号：月收盘价下穿MA5
+        该策略跟踪中期趋势，过滤短期噪音。

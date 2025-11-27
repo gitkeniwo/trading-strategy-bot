@@ -1,0 +1,11 @@
+# Core dependencies
+yfinance==0.2.40
+pandas==2.2.2
+requests==2.31.0
+pydantic==2.7.4
+pydantic-settings==2.3.3
+python-dotenv==1.0.1
+pyyaml==6.0.1
+
+# Development dependencies (optional)
+# Install with: pip install -r requirements.txt -r requirements-dev.txt

@@ -1,0 +1,39 @@
+{
+  "buy_signal": {
+    "title": "🚨 BUY SIGNAL - MA120 Deviation Strategy",
+    "signal_1_subtitle": "Signal 1 (15% below MA120)",
+    "signal_2_subtitle": "Signal 2 (20% below Signal 1 price)",
+    "stock_label": "Stock",
+    "signal_type_label": "Signal Type",
+    "current_price": "Current Price",
+    "ma120_value": "MA120 Value",
+    "deviation": "Deviation",
+    "below_ma120": "{percent}% below MA120",
+    "date": "Date",
+    "position_size": "Position Size",
+    "of_allocated_capital": "of allocated capital",
+    "next_steps": "Next Steps",
+    "signal_2_will_trigger": "Signal 2 will trigger if price drops to ${price:.2f}",
+    "signal_2_additional_drop": "(20% below current price)",
+    "signal_2_additional_position": "Signal 2 position size: Additional {size}",
+    "both_signals_complete": "Both Signal 1 and Signal 2 have been triggered. Position is complete."
+  },
+  "summary": {
+    "title": "📊 Trading Strategy Daily Summary",
+    "date": "Date",
+    "signals_generated": "Signals Generated",
+    "signal_details": "Signal Details",
+    "no_signals": "No buy signals triggered today. All stocks are above their thresholds.",
+    "footer": "Strategy: MA120 Deviation | Automated via GitHub Actions"
+  },
+  "notification": {
+    "error_title": "❌ Error in Trading Strategy",
+    "error_details": "An error occurred while running the trading strategy",
+    "check_logs": "Please check GitHub Actions logs for details"
+  },
+  "sections": {
+    "current_metrics": "📊 Current Metrics",
+    "recommendation": "💰 Recommendation",
+    "next_steps": "📌 Next Steps"
+  }
+}
