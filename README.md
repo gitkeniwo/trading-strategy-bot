@@ -115,6 +115,7 @@ You should receive a notification in Telegram!
 
 2. **Add GitHub Secrets**:
    - Go to repository Settings > Secrets and variables > Actions
+   - Or `gh secret set <KEY> --body <value>`
    - Add `TELEGRAM_BOT_TOKEN`
    - Add `TELEGRAM_CHAT_ID`
 
