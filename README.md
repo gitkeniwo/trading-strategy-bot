@@ -128,6 +128,17 @@ You should receive a notification in Telegram!
    - Click "Run workflow"
    - Check Telegram for notification
 
+5. **Test Locally with `act`**
+   - Install `act` and start your `docker`
+   - The secrets must be passed to `act` through a file 
+   - Use command:
+
+```sh
+act workflow_dispatch \
+   -j run-strategy 
+   --secret-file .env
+```
+
 ## Configuration
 
 ### Environment Variables
